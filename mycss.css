@@ -22,6 +22,15 @@
     display: inline-block!important;
     margin-right: 0px!important;
     box-sizing: border-box!important;
+    box-shadow: 0.4px 3px 4px grey;
+}
+@media only screen and (min-width:400px){
+    .article {
+        width:400px!important;
+        height:470px!important;
+        box-shadow: 0.4px 3px 9px grey;
+    }
+    
 }
 
 @media only screen and (min-width:768px) {
