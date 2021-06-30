@@ -1,2 +1,0 @@
-# pragyamukherjee.github.io
-readme
