@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <link rel="stylesheet" href="mycss.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark position-nav">
+        <div class="logo">
+            <a class ="navbar-brand " href="#"><h4 class="right" style="padding-right: 40px; font-family: 'Dancing Script', cursive;">Pragya Mukherjee</h4></a>
+        </div>
+
+        <button class="navbar-toggler", data-toggle="collapse" and data-target="#collapseme">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id ="collapseme">
+            <ul class ="navbar-nav right">
+                <li class = "nav-item float-right"><a class ="nav-link" href="#home">Home</a></li>
+                <li class = "nav-item float-right"><a class ="nav-link" href="#about">About me</a></li>
+                <li class = "nav-item float-right"><a class ="nav-link" href="#projects">My projects</a></li>
+                <li class = "nav-item float-right"><a class ="nav-link" href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    
+    <div id = "home" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url('1.jpg');padding-top:200px; background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <h3 class="text-light" id ="welcome"style="text-align: center; padding-bottom:200px;font-family: font-family: 'Vollkorn', serif;;">Hey,<br>I am Pragya Mukherjee,<br><small id ="animation1" style="font-family: monospace;">an enthusiastic Front-End Web-Developer</small><br><a href="#" id ="download"><button type="button" class="btn text-black bg-white" ><i class="fa fa-download"></i>Download my resume</button></a></h3>
+        
+    </div>
+    <div align="center" id = "about"style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('3.jpg');background-repeat: no-repeat;background-size: cover; padding:70px 40px;background-position: center; margin-bottom: 5px;">
+        <div id = "about1"><h2 class="text-primary" style="padding-bottom: 10px;text-align: center;">My education</h2></div>
+            <article style="border: 2px solid white;margin-bottom: 5px;text-align:center;">
+                <h4 style="color:rgba(255,255,255,0.5);">Graduation</h4>
+                <p style="color: white;text-align:center;">Amity University Kolkata<br>2019-2023<br>B.Tech(Computer Science and Engineering)</p>
+            </article>
+
+            <article style="border: 2px solid white;margin-bottom: 5px;text-align:center;">
+                <h4 style="color:rgba(255,255,255,0.5);">Senior Secondary Education</h4>
+                <p style="color: white;text-align:center;">Aditya Academy Senior Secondary School.<br>2017-2019<br>Computer Science<br>(92.6%)</p>
+            </article>
+
+            <article style="border: 2px solid white;text-align:center;">
+                <h4 style="color:rgba(255,255,255,0.5);">Secondary Education</h4>
+                <p style="color: white;">Ramakrishna Vivekananda Mission (Nivedita Vidyapith)</p>
+            </article>
+        
+        <div id ="about2">
+            <h2 align="center" style="font-family: fantasy;color: white">My skills</h2> <hr>
+            <article class="progress-part">
+                <ul style="list-style-type: none; font-weight: bold; " class="text-white">
+                    <li>Python <span class="progress" style="width: 80%;height: 10px;"><div align="center" class="progress-bar progress-bar-striped progress-bar-animated" style="width:65%; background-color: rgb(33, 122, 224);">65%</div></span></li>
+                    <li>C++<span class="progress" style="width: 80%;height: 10px;"><div align="center"class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%; background-color: rgb(33, 122, 224);">60%</div></span></li><br>
+                    <li>HTML<span class="progress" style="width: 80%;height: 10px;"><div align="center"class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%; background-color: rgb(33, 122, 224);">75%</div></span></li>
+                    <li>CSS<span class="progress" style="width: 80%;height: 10px;"><div align="center"class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%; background-color: rgb(33, 122, 224);">60%</div></span></li>
+                    <li>BOOTSTRAP<span class="progress" style="width: 80%;height: 10px;"><div align="center"class="progress-bar progress-bar-striped progress-bar-animated" style="width:55%;background-color: rgb(33, 122, 224);">55%</div></span></li>
+                </ul>
+                </article><br>
+        </div>
+        <div align="center" style="color: rgba(255,255,255,0.7); text-align: center;">
+                   
+            <h3 style="text-align: center;">Other language skills</h3>
+            <br>
+            Java
+            <br>
+            C<br>
+        <br>
+            <h4 >Language proficiency</h4>
+                <br>
+                English
+                <br>
+                Hindi
+                <br>
+                Bengali<br>
+            
+            
+    </div>
+    </div>
+
+    <div align="center" id ="projects" style="box-sizing: border-box;background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('project-w.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;margin-bottom: 5px;">
+        <h3 align ="center" style="background-color: grey;width:100%;padding:40px;font-family: monospace;">"MY PROJECTS"</h3>
+        <p style="font-size: 1rem; color: white;">These are few of my python projects<br><br><p style="text-align: end;padding:40px;color:white;">Note:<br><a href="https://codepen.io/MPragya" target="_blank" style="padding-right: 10px;">CLick here</a><br> to view more of my projects!</p></p>
+
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="cal.jpg" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Simple calculator using Python Tkinter
+</strong></div>
+                <p class="card-text">Created a simple calculator using Python programming language. I used Tkinter for this project.</p>
+                <a href="#"><button id ="click"style="margin: 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="face.png" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Face Detection using OpenCV</strong></div>
+                <p class="card-text">Created with Python programming language. Used Cascade classifier to detect faces in an image.</p>
+                <a href="#"><button id ="click"style="margin:0px 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="poly.png" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Covid-19 data-analysis using Polynomial Regression</strong></div>
+                <p class="card-text">Research paper accepted at ICRTDARIP. Further Research in progress.</p>
+                <a href="#"><button id ="click"style="margin: 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="tic.png" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Simple Tic-Tac-Toe Game</strong></div>
+                <p class="card-text">Created a simple TIC-TAC-TOE game. I used Python for this project.</p>
+                <a href="#"><button id ="click"style="margin: 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="snake-game.jpg" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Simple Snake Game</strong></div>
+                <p class="card-text">Created a simple Snake game. I used Python for this project.</p>
+                <a href="#"><button id ="click"style="margin: 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+        <article align="center"class="article" style="margin:20px 0px;padding: 10px;max-width:100%;height:auto;position: static!important;">
+            <div align="center" class="card" style="max-width:80% ; text-align:center;border: 5px solid transparent;border-radius: 10%;position: static;">
+                <img class="card-img img-responsive img-project" src="car.jpg" style="padding: 10px; max-width:100%;height:auto;">
+                <div class="card-title"><strong>Smart Car Parking System.</strong></div>
+                <p class="card-text">Research paper accepted at ICRTDARIP. Further Research in progress.</p>
+                <a href="#"><button id ="click"style="margin: 10px;" type ="button" class="btn btn-primary">Click here to know more</button></a>
+            </div>
+        </article>
+
+    </div>
+    <!--=======================================================================-->
+
+        
+
+
+
+
+    <footer id ="contact"  style="position: static; width: 100%; background-color: teal;padding-top: 20px;">
+        
+
+        <div align="center" style="padding:40px;">
+            <form action="#"><br>
+                <label for ="#message-box" class="text-white" style="font-family: fantasy;">Feel free to drop your message here</label>
+                <textarea class="form-control" id ="message-box"required style=" width:200px;height:100px;" placeholder="Start typing...."></textarea><br>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+
+
+        <div align="center" style="padding:50px">
+            
+            <small class="text-white">&copy 2021 Pragya Mukherjee. All rights reserved.</small>
+            <div align="center"><a class="footer-social" href="https://linkedin.com/in/pragyamukherjee"target="_blank" style="color: white;"><i style="padding-right: 20px;" class="fa fa-linkedin" aria-hidden="true"></i></a><a href="https://github.com/MPragya-20" target="_blank" class="footer-social" style="color: white; padding-right: 20px;" ><i class="fa fa-github" aria-hidden="true"></i></a><a class="footer-social"href="https://images-na.ssl-images-amazon.com/images/I/61ZmA1UkQBL._AC_SL1000_.jpg"target="_blank" style="color: white;"><i style="padding-right: 20px;" class="fa fa-instagram" aria-hidden="true"></i></a><a class="footer-social" style="color: white;" href="https://images-na.ssl-images-amazon.com/images/I/61ZmA1UkQBL._AC_SL1000_.jpg" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+        </div>
+        <div align="right" style="padding:20px;"><small class="text-white"><i class="fa fa-envelope"> pragyabcdefg@gmail.com</i><br>SAMPLE RESPONSIVE WEB DESIGN BY Pragya Mukherjee.</small></div>
+
+    </footer>
+</body>
+</html>
