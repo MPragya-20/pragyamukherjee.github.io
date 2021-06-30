@@ -27,7 +27,7 @@
 @media only screen and (min-width:400px){
     .article {
         width:400px!important;
-        height:470px!important;
+        height:480px!important;
         box-shadow: 0.4px 3px 9px grey;
     }
     
